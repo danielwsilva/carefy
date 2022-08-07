@@ -24,8 +24,7 @@ export const styles = StyleSheet.create({
   },
   button: {
     width: '100%', 
-    height: RFValue(54), 
-    backgroundColor: theme.colors.primary,
+    height: RFValue(54),
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius: 40
