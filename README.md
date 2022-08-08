@@ -44,6 +44,7 @@ As técnologias envolvidas na construção do projeto:
 
 #### React Native
 
+- **expo**
 - **react-navigation**
 - **axios**
 - **expo-google-fonts**
