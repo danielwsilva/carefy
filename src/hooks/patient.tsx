@@ -40,7 +40,7 @@ export function PatientProvider({ children }: PropsProvider) {
 
   useEffect(() => {
     loadStorageData();
-  }, []);
+  }, [user]);
 
   const loadStorageData = async () => {
     const patientStoraged = await AsyncStorage.getItem(patientStorageKey);
